@@ -50,7 +50,7 @@ def test_account(email, password):
     return False
 
 
-acc_file = open('accounts.txt', 'r', encoding="utf-8")
+acc_file = open('/storage/emulated/0/Checkers/CrunchyrollAccountChecker/recursos/accounts.txt', 'r', encoding="utf-8")
 success_accounts = []
 fail_accounts = []
 

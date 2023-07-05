@@ -54,7 +54,7 @@ acc_file = open('/storage/emulated/0/Checkers/CrunchyrollAccountChecker/recursos
 success_accounts = []
 fail_accounts = []
 
-if os.path.getsize('accounts.txt') > 0:
+if os.path.getsize('/storage/emulated/0/Checkers/CrunchyrollAccountChecker/recursos/accounts.txt') > 0:
     for line in acc_file.readlines():
         account_list = line.split(':')
         eml = account_list[0].strip()
